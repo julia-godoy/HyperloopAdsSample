@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ilm_black_balloon_translucent">#E6000000</color>
+    <color name="ilm_gray_background">#F9F9F9</color>
+    <color name="ilm_gray_balloon">#1D272F</color>
+    <declare-styleable name="IndoorMapView"><attr format="reference" name="ilmStoreColor"/><attr format="reference" name="ilmHighlightColor"/><attr format="reference" name="ilmTextColor"/><attr format="reference" name="ilmRouteColor"/><attr format="color" name="ilmHallColor"/><attr format="reference" name="ilmBalloonLayout"/><attr format="reference" name="ilmCloseButton"/></declare-styleable>
+    <string name="ilm_error_different_floors">"You are in %1$s. Go to %2$s and trace the route again."</string>
+    <string name="ilm_error_graph_not_found">"Route not available."</string>
+    <string name="ilm_goal_reached">"You have reached your destination."</string>
+</resources>

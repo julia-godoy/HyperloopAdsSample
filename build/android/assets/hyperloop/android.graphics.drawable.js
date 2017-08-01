@@ -1,0 +1,1 @@
+var parent=require("android.graphics")||{},drawable={};parent.drawable=drawable,Object.defineProperty(drawable,"Drawable",{get:function(){return require("android.graphics.drawable.Drawable")},enumerable:!0}),Object.defineProperty(drawable,"PictureDrawable",{get:function(){return require("android.graphics.drawable.PictureDrawable")},enumerable:!0}),module.exports=drawable;

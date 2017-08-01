@@ -1,0 +1,1 @@
+var parent=require("android.app")||{},assist={};parent.assist=assist,Object.defineProperty(assist,"AssistContent",{get:function(){return require("android.app.assist.AssistContent")},enumerable:!0}),module.exports=assist;

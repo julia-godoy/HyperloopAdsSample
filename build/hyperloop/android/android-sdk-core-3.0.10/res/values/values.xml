@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ilm_private_id_placeholder" type="id"/>
+    <item name="ilm_private_id_recycled" type="id"/>
+    <item name="ilm_private_id_request" type="id"/>
+    <item name="ilm_private_id_request_listener" type="id"/>
+    <item name="ilm_private_id_url" type="id"/>
+    <item name="ilm_private_id_user_listener" type="id"/>
+    <item name="ilm_private_id_view_holder" type="id"/>
+    <style name="Theme.InLocoMedia.NoActionBar" parent="@android:style/Theme.Translucent.NoTitleBar"/>
+    <style name="Theme.InLocoMedia.NoActionBar.Fullscreen" parent="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+</resources>

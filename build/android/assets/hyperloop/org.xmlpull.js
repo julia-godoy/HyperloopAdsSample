@@ -1,0 +1,1 @@
+var parent=require("org")||{},xmlpull={};parent.xmlpull=xmlpull,module.exports=xmlpull;

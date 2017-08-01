@@ -1,0 +1,1 @@
+var parent=require("com")||{},inlocomedia={};parent.inlocomedia=inlocomedia,module.exports=inlocomedia;

@@ -1,0 +1,1 @@
+var parent=require("com.inlocomedia.android.core.communication")||{},listeners={};parent.listeners=listeners,Object.defineProperty(listeners,"ImageRequestListener",{get:function(){return require("com.inlocomedia.android.core.communication.listeners.ImageRequestListener")},enumerable:!0}),module.exports=listeners;

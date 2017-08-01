@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<View layout="vertical" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+			<View id="ad" height="Ti.UI.SIZE" width="Ti.UI.SIZE"></View>
+		</View>
+	</Window>
+</Alloy>

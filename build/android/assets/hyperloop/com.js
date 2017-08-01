@@ -1,0 +1,1 @@
+var parent=global,com={};parent.com=com,module.exports=com;

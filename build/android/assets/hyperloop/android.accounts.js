@@ -1,0 +1,1 @@
+var parent=require("android")||{},accounts={};parent.accounts=accounts,Object.defineProperty(accounts,"Account",{get:function(){return require("android.accounts.Account")},enumerable:!0}),module.exports=accounts;

@@ -1,0 +1,1 @@
+var parent=require("com.inlocomedia")||{},android={};parent.android=android,module.exports=android;

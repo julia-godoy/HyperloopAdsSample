@@ -1,0 +1,1 @@
+var parent=require("com.inlocomedia.android")||{},ads={};parent.ads=ads,Object.defineProperty(ads,"InLocoMedia",{get:function(){return require("com.inlocomedia.android.ads.InLocoMedia")},enumerable:!0}),Object.defineProperty(ads,"InLocoMediaOptions",{get:function(){return require("com.inlocomedia.android.ads.InLocoMediaOptions")},enumerable:!0}),module.exports=ads;

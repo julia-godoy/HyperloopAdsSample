@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ilm_store_image_dialog_message">Deseja salvar a imagem na sua Galeria?</string>
+    <string name="ilm_store_image_dialog_title">Salvar Imagem</string>
+    <string name="ilm_store_image_notification_action">Visualizar imagem</string>
+    <string name="ilm_store_image_notification_summary">Toque para visualizar a imagem.</string>
+    <string name="ilm_store_image_notification_title">Imagem salva</string>
+    <string name="ilm_store_image_toast_downloading">Salvando…</string>
+    <string name="ilm_store_image_toast_failure">A imagem não pôde ser salva.</string>
+    <string name="ilm_store_image_toast_not_granted_permission">Você não tem permissão para salvar fotos.</string>
+    <string name="ilm_store_image_toast_successful">Imagem salva na Galeria.</string>
+</resources>

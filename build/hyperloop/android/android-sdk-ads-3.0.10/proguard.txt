@@ -1,0 +1,17 @@
+#InLocoMedia exceptions
+-keepattributes Signature
+-dontwarn com.inlocomedia.android.ads.**
+-keep class com.inlocomedia.android.ads.** { *; }
+-keepclassmembers class com.inlocomedia.android.ads.** { *; }
+
+# Support for Android Advertiser ID
+-keep class com.google.android.gms.common.GooglePlayServicesUtil { *; }
+-keep class com.google.android.gms.common.GoogleApiAvailability { *; }
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient { *; }
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient$Info { *; }
+
+# Support for Notification
+-keep class com.google.android.gms.location.Geofence { *; }
+
+# Support for ActivityRecognition
+-keep class com.google.android.gms.location.ActivityRecognition { *; }

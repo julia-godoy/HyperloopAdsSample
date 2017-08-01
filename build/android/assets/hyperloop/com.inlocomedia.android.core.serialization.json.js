@@ -1,0 +1,1 @@
+var parent=require("com.inlocomedia.android.core.serialization")||{},json={};parent.json=json,Object.defineProperty(json,"JsonableModel",{get:function(){return require("com.inlocomedia.android.core.serialization.json.JsonableModel")},enumerable:!0}),module.exports=json;

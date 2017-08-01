@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ilm_error_different_floors">"Você está no %1$s. Vá para o %2$s e trace a rota novamente."</string>
+    <string name="ilm_error_graph_not_found">"Rota não está disponível."</string>
+    <string name="ilm_goal_reached">"Você chegou ao seu destino."</string>
+</resources>

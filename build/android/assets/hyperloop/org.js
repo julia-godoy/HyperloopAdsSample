@@ -1,0 +1,1 @@
+var parent=global,org={};parent.org=org,module.exports=org;

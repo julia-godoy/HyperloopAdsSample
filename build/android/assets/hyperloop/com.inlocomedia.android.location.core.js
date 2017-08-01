@@ -1,0 +1,1 @@
+var parent=require("com.inlocomedia.android.location")||{},core={};parent.core=core,module.exports=core;

@@ -1,0 +1,1 @@
+var parent=global,java={};parent.java=java,module.exports=java;

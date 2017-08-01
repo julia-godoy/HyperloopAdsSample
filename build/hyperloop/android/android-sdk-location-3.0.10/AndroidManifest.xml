@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.inlocomedia.android.location"
+    android:versionCode="30010"
+    android:versionName="3.0.10" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application>
+        <service
+            android:name="com.inlocomedia.android.location.InLocoMediaService"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.inlocomedia.android.location.LocationReceiver"
+            android:exported="false" >
+        </receiver>
+    </application>
+
+</manifest>

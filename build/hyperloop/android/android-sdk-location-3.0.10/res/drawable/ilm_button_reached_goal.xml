@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ ilm_button_reached_goal.xml
+  ~ Copyright (c) 2017 InLocoMedia.
+  ~ All rights reserved.
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ilm_button_reached_goal_pressed" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/ilm_button_reached_goal_normal"></item>
+
+</selector>

@@ -1,0 +1,1 @@
+var parent=require("com.inlocomedia.android.core")||{},permissions={};parent.permissions=permissions,Object.defineProperty(permissions,"PermissionsListener",{get:function(){return require("com.inlocomedia.android.core.permissions.PermissionsListener")},enumerable:!0}),module.exports=permissions;

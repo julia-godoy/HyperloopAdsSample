@@ -1,0 +1,321 @@
+/**
+ * Hyperloop
+ * Generated code is Copyright (c) 2017 Appcelerator, Inc. and subject to the
+ * Appcelerator Platform Subscription agreement.
+ *
+ * WARNING: This is generated code. Modify at your own risk and without support
+ *
+ * @module android.content.Intent$ShortcutIconResource
+ */
+var Hyperloop = require('hyperloop');
+
+var EnclosingClass = require('android.content.Intent');
+
+/**
+ * @class android.content.Intent$ShortcutIconResource
+ * @extends java.lang.Object 
+ * @constructor
+ * @see {@link http://developer.android.com/reference/android/content/Intent.ShortcutIconResource.html}
+ **/
+var ShortcutIconResource = function() {
+	var result;
+	// Allow the constructor to either invoke the real java constructor, or function as a "wrapping" method that will take
+	// a single argument that is a native hyperloop proxy for this class type and just wraps it in our JS type.
+	if (arguments.length == 1 && arguments[0].isNativeProxy && arguments[0].isInstanceProxy && arguments[0].isInstanceOf('android.content.Intent$ShortcutIconResource')) {
+		result = arguments[0];
+	}
+	else {
+		result = ShortcutIconResource.class.newInstance(arguments);
+	}
+
+	this.$native = result;
+	this._hasPointer = result != null;
+	this._private = {};
+};
+
+var SuperClass = require('java.lang.Object');
+ShortcutIconResource.prototype = Object.create(SuperClass.prototype);
+ShortcutIconResource.prototype.constructor = ShortcutIconResource;
+
+Object.defineProperty(ShortcutIconResource.prototype, 'super', {
+	get: function() {
+		if (!this._hasPointer) return null;
+		return new ShortcutIconResource(this.$native.super);
+	},
+	enumerable: true
+});
+
+ShortcutIconResource.className = 'android.content.Intent$ShortcutIconResource';
+ShortcutIconResource.prototype.className = 'android.content.Intent$ShortcutIconResource';
+
+// class property
+Object.defineProperty(ShortcutIconResource, 'class', {
+	get: function() {
+		return Hyperloop.getClass('android.content.Intent$ShortcutIconResource');
+	},
+	enumerable: true,
+	configurable: false
+});
+
+// Allow subclassing
+ShortcutIconResource.extend = function (overrides) {
+	var subclassProxy = Hyperloop.extend('android.content.Intent$ShortcutIconResource');
+
+	// Generate a JS wrapper for our dynamic subclass
+	var SubClass = function() {
+		var result = subclassProxy.newInstance(arguments),
+			instance = this,
+			copy = overrides,
+			modified = {};
+
+		function _wrapArg(arg) {
+			if (arg.apiName && arg.isNativeProxy && arg.isInstanceProxy) { // Assume hyperloop proxy, wrap in JS wrapper
+				var other = require(arg.apiName);
+				return new other(arg);
+			}
+			return arg;
+		}
+
+		function _wrapArgs() {
+			var newArgs = [];
+			for (var i = 0; i < arguments.length; i++) {
+				newArgs[i] = _wrapArg(arguments[i]);
+			}
+			return newArgs;
+		};
+
+		Object.keys(copy).forEach(function (each) {
+			// Hang the original override method on the JS wrapper object
+			instance[each] = function() {
+				return copy[each].apply(instance, arguments);
+			};
+
+			// Hang a delegate on the "overrides" object we pass into Java.
+			// This one wraps hyperloop proxies from Java in their JS wrapper before forwarding on
+			modified[each] = function() {
+				return instance[each].apply(instance, _wrapArgs.apply(this, arguments));
+			}
+		});
+		result.setOverrides(modified);
+
+		this.$native = result;
+		this._hasPointer = result != null;
+		this._private = {};
+	};
+	// it extends the JS wrapper for the parent type
+	SubClass.prototype = Object.create(ShortcutIconResource.prototype);
+	SubClass.prototype.constructor = SubClass;
+	return SubClass;
+};
+
+// Cast
+ShortcutIconResource.cast = function(object) {
+	if (!object.$native || !object.$native.isInstanceProxy) return object;
+	return new ShortcutIconResource(Hyperloop.cast('android.content.Intent$ShortcutIconResource', object.$native));
+};
+
+// Constants
+
+// Inner classes
+
+// Static fields
+// http://developer.android.com/reference/android/content/Intent.ShortcutIconResource.html#CREATOR
+Object.defineProperty(ShortcutIconResource, 'CREATOR', {
+	get: function() {
+		if (!this.class) return null;
+
+		var result = this.class.getNativeField('CREATOR');
+		if (result == null) {
+			return null;
+		}
+		// Wrap result if it's not a primitive type?
+		if (result.apiName) {
+			if (result.apiName === 'android.content.Intent$ShortcutIconResource') {
+				return new ShortcutIconResource(result);
+			} else {
+				var ctor = require(result.apiName);
+				return new ctor(result);
+			}
+		}
+		return result;
+	},
+	enumerable: true
+});
+
+// Instance Fields
+// http://developer.android.com/reference/android/content/Intent.ShortcutIconResource.html#resourceName
+Object.defineProperty(ShortcutIconResource.prototype, 'resourceName', {
+	get: function() {
+		if (!this._hasPointer) return null;
+
+		var result = this.$native.getNativeField('resourceName');
+		if (result == null) {
+			return null;
+		}
+		// Wrap result if it's not a primitive type?
+		if (result.apiName) {
+			if (result.apiName === 'android.content.Intent$ShortcutIconResource') {
+				return new ShortcutIconResource(result);
+			} else {
+				var ctor = require(result.apiName);
+				return new ctor(result);
+			}
+		}
+		return result;
+	},
+	set: function(newValue) {
+		if (!this._hasPointer) return;
+
+		this.$native.setNativeField('resourceName', newValue);
+	},
+	enumerable: true
+});
+// http://developer.android.com/reference/android/content/Intent.ShortcutIconResource.html#packageName
+Object.defineProperty(ShortcutIconResource.prototype, 'packageName', {
+	get: function() {
+		if (!this._hasPointer) return null;
+
+		var result = this.$native.getNativeField('packageName');
+		if (result == null) {
+			return null;
+		}
+		// Wrap result if it's not a primitive type?
+		if (result.apiName) {
+			if (result.apiName === 'android.content.Intent$ShortcutIconResource') {
+				return new ShortcutIconResource(result);
+			} else {
+				var ctor = require(result.apiName);
+				return new ctor(result);
+			}
+		}
+		return result;
+	},
+	set: function(newValue) {
+		if (!this._hasPointer) return;
+
+		this.$native.setNativeField('packageName', newValue);
+	},
+	enumerable: true
+});
+
+// Static methods
+/**
+ * TODO Fill out docs more...
+ * @function fromContext
+ * @static
+ * @see {@link http://developer.android.com/reference/android/content/Intent.ShortcutIconResource.html#fromContext(android.content.Context, int)}
+ **/
+ShortcutIconResource.fromContext = function() {
+	if (!this.class) return null;
+
+	var result = this.class.callNativeFunction({
+		func: 'fromContext',
+		instanceMethod: false,
+		args: Array.prototype.slice.call(arguments)
+	});
+	if (result == null) {
+		return null;
+	}
+	// Wrap result if it's not a primitive type?
+	if (result.apiName) {
+		if (result.apiName === 'android.content.Intent$ShortcutIconResource') {
+			return new ShortcutIconResource(result);
+		} else {
+			var ctor = require(result.apiName);
+			return new ctor(result);
+		}
+	}
+	return result;
+};
+
+// Instance methods
+/**
+ * TODO Fill out docs more...
+ * @function toString
+ * @memberof
+ * @instance
+ * @see {@link http://developer.android.com/reference/android/content/Intent.ShortcutIconResource.html#toString()}
+ **/
+ShortcutIconResource.prototype.toString = function() {
+	if (!this._hasPointer) return null;
+
+	var result = this.$native.callNativeFunction({
+		func: 'toString',
+		instanceMethod: true,
+		args: Array.prototype.slice.call(arguments)
+	});
+	if (result == null) {
+		return null;
+	}
+	// Wrap result if it's not a primitive type?
+	if (result.apiName) {
+		if (result.apiName === 'android.content.Intent$ShortcutIconResource') {
+			return new ShortcutIconResource(result);
+		} else {
+			var ctor = require(result.apiName);
+			return new ctor(result);
+		}
+	}
+	return result;
+};
+/**
+ * TODO Fill out docs more...
+ * @function describeContents
+ * @memberof
+ * @instance
+ * @see {@link http://developer.android.com/reference/android/content/Intent.ShortcutIconResource.html#describeContents()}
+ **/
+ShortcutIconResource.prototype.describeContents = function() {
+	if (!this._hasPointer) return null;
+
+	var result = this.$native.callNativeFunction({
+		func: 'describeContents',
+		instanceMethod: true,
+		args: Array.prototype.slice.call(arguments)
+	});
+	if (result == null) {
+		return null;
+	}
+	// Wrap result if it's not a primitive type?
+	if (result.apiName) {
+		if (result.apiName === 'android.content.Intent$ShortcutIconResource') {
+			return new ShortcutIconResource(result);
+		} else {
+			var ctor = require(result.apiName);
+			return new ctor(result);
+		}
+	}
+	return result;
+};
+/**
+ * TODO Fill out docs more...
+ * @function writeToParcel
+ * @memberof
+ * @instance
+ * @see {@link http://developer.android.com/reference/android/content/Intent.ShortcutIconResource.html#writeToParcel(android.os.Parcel, int)}
+ **/
+ShortcutIconResource.prototype.writeToParcel = function() {
+	if (!this._hasPointer) return null;
+
+	var result = this.$native.callNativeFunction({
+		func: 'writeToParcel',
+		instanceMethod: true,
+		args: Array.prototype.slice.call(arguments)
+	});
+	if (result == null) {
+		return null;
+	}
+	// Wrap result if it's not a primitive type?
+	if (result.apiName) {
+		if (result.apiName === 'android.content.Intent$ShortcutIconResource') {
+			return new ShortcutIconResource(result);
+		} else {
+			var ctor = require(result.apiName);
+			return new ctor(result);
+		}
+	}
+	return result;
+};
+
+// export the class
+module.exports = ShortcutIconResource;

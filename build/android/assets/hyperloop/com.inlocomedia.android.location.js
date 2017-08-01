@@ -1,0 +1,1 @@
+var parent=require("com.inlocomedia.android")||{},location={};parent.location=location,Object.defineProperty(location,"LocationError",{get:function(){return require("com.inlocomedia.android.location.LocationError")},enumerable:!0}),module.exports=location;

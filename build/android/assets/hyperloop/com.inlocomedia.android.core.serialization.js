@@ -1,0 +1,1 @@
+var parent=require("com.inlocomedia.android.core")||{},serialization={};parent.serialization=serialization,module.exports=serialization;

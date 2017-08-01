@@ -1,0 +1,241 @@
+
+7/28/2017, 3:00:22 PM
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.12
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 8589934592
+
+Node.js
+  Node.js Version             = 4.6.0
+  npm Version                 = 2.15.9
+
+Titanium CLI
+  CLI Version                 = 5.0.11
+
+Titanium SDK
+  SDK Version                 = 5.5.0.GA
+  SDK Path                    = /Users/julia.godoy/Library/Application Support/Titanium/mobilesdk/osx/5.5.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/julia.godoy/.appcelerator/install/6.1.0/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 5.5.0.GA --project-dir /Users/julia.godoy/Documents/Appcelerator_Studio_Workspace/HyperloopAdsSample --target simulator --ios-version 10.2 --device-family iphone --deploy-type development --sim-type ipad --sim-version 10.2 --device-id D5162981-7E9D-4551-AD86-12FBD71B5407 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 53305 --config-file /var/folders/y5/gt2g93fx3b3bst541x_c4qhjrnz89x/T/build-1501264812459.json --no-banner --project-dir /Users/julia.godoy/Documents/Appcelerator_Studio_Workspace/HyperloopAdsSample
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID D5162981-7E9D-4551-AD86-12FBD71B5407
+[TRACE]  [ioslib] Found iOS Simulator UDID D5162981-7E9D-4551-AD86-12FBD71B5407
+[TRACE]  [ioslib] Selected iOS Simulator: iPad Air
+[TRACE]  [ioslib]   UDID    = D5162981-7E9D-4551-AD86-12FBD71B5407
+[TRACE]  [ioslib]   iOS     = 10.2
+[TRACE]  [ioslib] Autoselected Xcode: 8.2.1
+[DEBUG]  Detecting modules in /Users/julia.godoy/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: ti.admob 2.2.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/admob fork/2.2.0
+[DEBUG]  Detected android module: ti.admob 2.2.1 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/admob fork/2.2.1
+[DEBUG]  Detected android module: ti.admob 3.0.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/admob fork/3.0.0
+[DEBUG]  Detected android module: ti.admob 2.1.6 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/admobOficial/2.1.6
+[DEBUG]  Detected android module: ti.admob 3.0.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/admobOficial/3.0.0
+[DEBUG]  Detected android module: ti.admob 3.0.1 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/admobOficial/3.0.1
+[DEBUG]  Detected android module: com.inlocomedia.appcelerator 1.1.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/com.inlocomedia.appcelerator/1.1.0
+[DEBUG]  Detected android module: com.inlocomedia.inlocomediasdk 1.0.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/com.inlocomedia.inlocomediasdk/1.0.0
+[DEBUG]  Detected android module: com.ndk.test 1.0.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/com.ndk.test/1.0.0
+[DEBUG]  Detected android module: facebook 5.2.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/facebook/5.2.0
+[DEBUG]  Detected android module: facebook 6.0.1 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/facebook/6.0.1
+[DEBUG]  Detected android module: facebook 6.1.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/facebook/6.1.0
+[DEBUG]  Detected android module: hyperloop 1.2.8 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/hyperloop/1.2.8
+[DEBUG]  Detected android module: hyperloop 2.0.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/hyperloop/2.0.0
+[DEBUG]  Detected android module: hyperloop 2.1.1 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/hyperloop/2.1.1
+[DEBUG]  Detected android module: ti.admob 2.2.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/ti.admob/2.2.0
+[DEBUG]  Detected android module: ti.admob 2.2.1 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/ti.admob/2.2.1
+[DEBUG]  Detected android module: ti.admob 3.0.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/ti.admob/3.0.0
+[DEBUG]  Detected android module: ti.cloudpush 3.4.1 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.1
+[DEBUG]  Detected android module: ti.cloudpush 4.0.3 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/ti.cloudpush/4.0.3
+[DEBUG]  Detected android module: ti.map 2.3.10 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/ti.map/2.3.10
+[DEBUG]  Detected android module: ti.map 3.0.1 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/ti.map/3.0.1
+[DEBUG]  Detected android module: ti.touchid 1.0.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/ti.touchid/1.0.0
+[DEBUG]  Detected android module: ti.touchid 2.0.1 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/ti.touchid/2.0.1
+[DEBUG]  Detected android module: ti.touchid 2.1.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/android/ti.touchid/2.1.0
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.11 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.0.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.0.0
+[DEBUG]  Detected iphone module: com.inlocomedia.appcelerator 1.1.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/com.inlocomedia.appcelerator/1.1.0
+[DEBUG]  Detected iphone module: com.inlocomedia.inlocomediasdk 1.0.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/com.inlocomedia.inlocomediasdk/1.0.0
+[DEBUG]  Detected iphone module: com.inlocomedia.sdk 1.0.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/com.inlocomedia.sdk/1.0.0
+[DEBUG]  Detected iphone module: facebook 5.2.6 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/facebook/5.2.6
+[DEBUG]  Detected iphone module: facebook 5.2.9 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/facebook/5.2.9
+[DEBUG]  Detected iphone module: facebook 5.4.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/facebook/5.4.0
+[DEBUG]  Detected iphone module: hyperloop 1.2.8 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/hyperloop/1.2.8
+[DEBUG]  Detected iphone module: hyperloop 2.0.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/hyperloop/2.0.0
+[DEBUG]  Detected iphone module: hyperloop 2.1.1 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/hyperloop/2.1.1
+[DEBUG]  Detected iphone module: ti.admob 2.1.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/ti.admob/2.1.0
+[DEBUG]  Detected iphone module: ti.coremotion 2.0.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.0
+[DEBUG]  Detected iphone module: ti.coremotion 2.0.1 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.1
+[DEBUG]  Detected iphone module: ti.map 2.7.1 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/ti.map/2.7.1
+[DEBUG]  Detected iphone module: ti.map 2.8.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/ti.map/2.8.0
+[DEBUG]  Detected iphone module: ti.map 2.8.2 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/ti.map/2.8.2
+[DEBUG]  Detected iphone module: ti.safaridialog 1.0.5 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.0.5
+[DEBUG]  Detected iphone module: ti.safaridialog 1.1.1 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.1.1
+[DEBUG]  Detected iphone module: ti.touchid 1.2.2 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.2
+[DEBUG]  Detected iphone module: ti.touchid 2.1.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/ti.touchid/2.1.0
+[DEBUG]  Detected mobileweb module: com.test.test 1.0.0 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/mobileweb/com.test.test/1.0.0
+[DEBUG]  Detected windows module: hyperloop 2.1.1 @ /Users/julia.godoy/Library/Application Support/Titanium/modules/windows/hyperloop/2.1.1
+[DEBUG]  Looking for Titanium module id=hyperloop version=1.2.8 platform=iphone deploy-type=development
+[INFO]   Found Titanium module id=hyperloop version=1.2.8 platform=iphone deploy-type=development path=/Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/hyperloop/1.2.8
+[DEBUG]  Looking for Titanium module id=ti.admob version=latest platform=iphone deploy-type=development
+[INFO]   Found Titanium module id=ti.admob version=2.1.0 platform=iphone deploy-type=development path=/Users/julia.godoy/Library/Application Support/Titanium/modules/iphone/ti.admob/2.1.0
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.11 platform=commonjs deploy-type=development path=/Users/julia.godoy/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  Detecting plugins in /Users/julia.godoy/Documents/Appcelerator_Studio_Workspace/HyperloopAdsSample/plugins
+[DEBUG]  Detected plugin: ti.alloy @ /Users/julia.godoy/Documents/Appcelerator_Studio_Workspace/HyperloopAdsSample/plugins/ti.alloy
+[DEBUG]  Detecting plugins in /Users/julia.godoy/Library/Application Support/Titanium/plugins
+[DEBUG]  Detected plugin: hyperloop 1.2.8 @ /Users/julia.godoy/Library/Application Support/Titanium/plugins/hyperloop/1.2.8
+[DEBUG]  Detected plugin: hyperloop 2.0.0 @ /Users/julia.godoy/Library/Application Support/Titanium/plugins/hyperloop/2.0.0
+[DEBUG]  Detected plugin: hyperloop 2.1.1 @ /Users/julia.godoy/Library/Application Support/Titanium/plugins/hyperloop/2.1.1
+[DEBUG]  Looking for Titanium plugin id=ti.alloy version=1.0
+[INFO]   Found Titanium plugin id=ti.alloy version=1.0 
+[DEBUG]  Looking for Titanium plugin id=hyperloop version=1.2.8
+[INFO]   Found Titanium plugin id=hyperloop version=1.2.8 
+[DEBUG]  Titanium SDK iOS directory: /Users/julia.godoy/Library/Application Support/Titanium/mobilesdk/osx/5.5.0.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 10.2
+[INFO]   Building for iOS Simulator: iPad Air
+[DEBUG]  UDID: D5162981-7E9D-4551-AD86-12FBD71B5407
+[DEBUG]  Simulator type: ipad
+[DEBUG]  Simulator version: 10.2
+[INFO]   Building for device family: iphone
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 8.0
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Forcing clean build: /Users/julia.godoy/Documents/Appcelerator_Studio_Workspace/HyperloopAdsSample/build/iphone/build-manifest.json does not exist
+[INFO]   Initializing the build directory
+[DEBUG]  Creating /Users/julia.godoy/Documents/Appcelerator_Studio_Workspace/HyperloopAdsSample/build/iphone
+[INFO]   Found Alloy app in /Users/julia.godoy/Documents/Appcelerator_Studio_Workspace/HyperloopAdsSample/app
+[INFO]   Executing Alloy compile: /usr/local/bin/node /Users/julia.godoy/.appcelerator/install/6.1.0/package/node_modules/alloy/bin/alloy compile /Users/julia.godoy/Documents/Appcelerator_Studio_Workspace/HyperloopAdsSample/app --config platform=ios,version=0,simtype=none,devicefamily=iphone,deploytype=development,target=simulator --no-colors
+[DEBUG]         .__  .__                
+[DEBUG]  _____  |  | |  |   ____ ___.__.
+[DEBUG]  \__  \ |  | |  |  /  _ <   |  |
+[DEBUG]   / __ \|  |_|  |_(  <_> )___  |
+[DEBUG]  (____  /____/____/\____// ____|
+[DEBUG]       \/                 \/
+[DEBUG]  Alloy 1.9.5 by Appcelerator. The MVC app framework for Titanium.
+[DEBUG]  ----- CONFIGURATION -----
+[DEBUG]  raw config = "platform=ios,version=0,simtype=none,devicefamily=iphone,deploytype=development,target=simulator"
+[DEBUG]  platform = ios
+[DEBUG]  version = 0
+[DEBUG]  simtype = none
+[DEBUG]  devicefamily = iphone
+[DEBUG]  deploytype = development
+[DEBUG]  target = simulator
+[DEBUG]  project path = /Users/julia.godoy/Documents/Appcelerator_Studio_Workspace/HyperloopAdsSample
+[DEBUG]  app path = /Users/julia.godoy/Documents/Appcelerator_Studio_Workspace/HyperloopAdsSample/app
+[DEBUG]  
+[WARN]   Generated "/i18n" directory is not ignored by Git, please add it to your .gitignore
+[WARN]   Generated "/platform" directory is not ignored by Git, please add it to your .gitignore
+[DEBUG]  
+[DEBUG]  ----- CONFIG.JSON -----
+[DEBUG]  dependencies = {}
+[INFO]   [config.json] config.json unchanged, using cached config.json...
+[DEBUG]  {
+[DEBUG]  "dependencies": {},
+[DEBUG]  "sourcemap": true,
+[DEBUG]  "autoStyle": false,
+[DEBUG]  "adapters": [
+[DEBUG]  "localStorage",
+[DEBUG]  "properties",
+[DEBUG]  "sql"
+[DEBUG]  ]
+[DEBUG]  }
+[DEBUG]  
+[DEBUG]  ----- CLEANING RESOURCES -----
+[DEBUG]  Removing orphaned controllers ...
+[DEBUG]  Removing orphaned models ...
+[DEBUG]  Removing orphaned styles ...
+[DEBUG]  Removing orphaned sync adapters...
+[DEBUG]  Removing orphaned assets and libs...
+[DEBUG]  
+[DEBUG]  ----- BASE RUNTIME FILES -----
+[TRACE]  SRC_DIR=/Users/julia.godoy/.appcelerator/install/6.1.0/package/node_modules/alloy/Alloy/lib
+[TRACE]  Copying SRC_DIR/alloy/sync/sql.js --> Resources/iphone/alloy/sync/sql.js
+[TRACE]  Copying SRC_DIR/alloy/sync/properties.js --> Resources/iphone/alloy/sync/properties.js
+[TRACE]  Copying SRC_DIR/alloy/sync/localStorage.js --> Resources/iphone/alloy/sync/localStorage.js
+[TRACE]  Copying SRC_DIR/alloy/controllers/BaseController.js --> Resources/iphone/alloy/controllers/BaseController.js
+[TRACE]  Copying SRC_DIR/alloy/widget.js --> Resources/iphone/alloy/widget.js
+[TRACE]  Copying SRC_DIR/alloy/underscore.js --> Resources/iphone/alloy/underscore.js
+[TRACE]  
+[TRACE]  Generating ../../../../../../Users/julia.godoy/Documents/Appcelerator_Studio_Workspace/HyperloopAdsSample/Resources/iphone/alloy.js
+[TRACE]  SRC_DIR=/Users/julia.godoy/.appcelerator/install/6.1.0/package/node_modules/alloy/Alloy/common
+[TRACE]  Copying SRC_DIR/constants.js --> Resources/iphone/alloy/constants.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/julia.godoy/Documents/Appcelerator_Studio_Workspace/HyperloopAdsSample/app/assets
+[TRACE]  Copying SRC_DIR/iphone/Default-568h@2x.png --> Resources/iphone/Default-568h@2x.png
+[TRACE]  Copying SRC_DIR/iphone/Default-667h@2x.png --> Resources/iphone/Default-667h@2x.png
+[TRACE]  Copying SRC_DIR/iphone/Default-Landscape-736h@3x.png --> Resources/iphone/Default-Landscape-736h@3x.png
+[TRACE]  Copying SRC_DIR/iphone/Default-Landscape.png --> Resources/iphone/Default-Landscape.png
+[TRACE]  Copying SRC_DIR/iphone/Default-Landscape@2x.png --> Resources/iphone/Default-Landscape@2x.png
+[TRACE]  Copying SRC_DIR/iphone/Default-Portrait-736h@3x.png --> Resources/iphone/Default-Portrait-736h@3x.png
+[TRACE]  Copying SRC_DIR/iphone/Default-Portrait.png --> Resources/iphone/Default-Portrait.png
+[TRACE]  Copying SRC_DIR/iphone/Default-Portrait@2x.png --> Resources/iphone/Default-Portrait@2x.png
+[TRACE]  Copying SRC_DIR/iphone/Default.png --> Resources/iphone/Default.png
+[TRACE]  Copying SRC_DIR/iphone/Default@2x.png --> Resources/iphone/Default@2x.png
+[TRACE]  
+[DEBUG]  
+[DEBUG]  Resetting /Users/julia.godoy/Documents/Appcelerator_Studio_Workspace/HyperloopAdsSample/i18n
+[DEBUG]  
+[INFO]   ----- MVC GENERATION -----
+[INFO]   [global style] loading from cache...
+[INFO]   [index.xml] view processing...
+[INFO]   style:      "index.tss"
+[INFO]   view:       "index.xml"
+[INFO]   controller: "index.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/index.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/index.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/index.js"
+[INFO]   
+[INFO]   [app.js] Titanium entry point processing...
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/app.js"
+[DEBUG]  map:        "build/map/Resources/iphone/app.js.map"
+[INFO]   
+[INFO]   ----- OPTIMIZING -----
+[INFO]   - iphone/alloy.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/localStorage.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/properties.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/sql.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[TRACE]  
+[TRACE]  Benchmarking
+[TRACE]  ------------
+[TRACE]  [4.21257s] TOTAL
+[INFO]   
+[INFO]   Alloy compiled in 4.21257s
+[INFO]   Alloy compiler completed successfully
+[INFO]   Hyperloop compiler works best with the built-in iOS JavaScript library.
+[INFO]   Add the following to your tiapp.xml <ios> section to enable or disable this:
+[INFO]   
+[INFO]   	<use-jscore-framework>true</use-jscore-framework>
+[INFO]   
+[INFO]   Using Titanium JavaScriptCore by default when not specified.
+[DEBUG]  Using Hyperloop library -> libhyperloop-ticore.a
+[TRACE]  [Hyperloop] Found pod 1.0.1 at /Users/julia.godoy/.rvm/gems/ruby-2.3.0/bin/pod
+[INFO]   [Hyperloop] CocoaPods dependencies found. This will take a few moments but will be cached for subsequent builds

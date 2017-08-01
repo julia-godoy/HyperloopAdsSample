@@ -1,0 +1,1 @@
+var parent=require("com.inlocomedia.android.location")||{},listeners={};parent.listeners=listeners,Object.defineProperty(listeners,"LocationListener",{get:function(){return require("com.inlocomedia.android.location.listeners.LocationListener")},enumerable:!0}),module.exports=listeners;

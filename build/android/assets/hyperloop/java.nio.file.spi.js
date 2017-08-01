@@ -1,0 +1,1 @@
+var parent=require("java.nio.file")||{},spi={};parent.spi=spi,Object.defineProperty(spi,"FileSystemProvider",{get:function(){return require("java.nio.file.spi.FileSystemProvider")},enumerable:!0}),module.exports=spi;

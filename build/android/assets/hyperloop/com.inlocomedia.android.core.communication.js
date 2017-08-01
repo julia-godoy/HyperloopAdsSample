@@ -1,0 +1,1 @@
+var parent=require("com.inlocomedia.android.core")||{},communication={};parent.communication=communication,Object.defineProperty(communication,"Request",{get:function(){return require("com.inlocomedia.android.core.communication.Request")},enumerable:!0}),module.exports=communication;
